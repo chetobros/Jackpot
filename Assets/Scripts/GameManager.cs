@@ -4,9 +4,8 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour {
-    public string homeSceneName;
-    public void Return()
+	public void Return(string SceneName)
     {
-        SceneManager.LoadScene(homeSceneName);
+        SceneManager.LoadScene(SceneName);
     }
 }
